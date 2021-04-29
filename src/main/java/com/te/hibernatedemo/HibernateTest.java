@@ -14,8 +14,8 @@ public class HibernateTest {
 
 	public static void main(String[] args) {
 		 School school = new School();
-		 school.setSid(836435);
-		 school.setSname("S.D.V.S");
+		 school.setSid(21926);
+		 school.setSname("Kendriya Vidyala");
 		ApplicationContext context = new AnnotationConfigApplicationContext(EnitityManagerConfig.class);
                EnitityManagerr managerr= context.getBean( EnitityManagerr.class);
                EntityManager entityManager=managerr.getEntityManager();
